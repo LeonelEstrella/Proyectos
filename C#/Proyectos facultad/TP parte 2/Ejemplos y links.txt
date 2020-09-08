@@ -1,0 +1,73 @@
+1) Post Ventas
+
+https://localhost:44398/ventas
+
+{
+	"CarritoId" : 2,
+	"Fecha" : "2020-05-12T00:00:00"
+}
+
+2) Get Ventas del día
+
+https://localhost:44398/ventas
+
+3) Busqueda por producto
+
+https://localhost:44398/ventas/producto/3
+
+4) Post Cliente
+
+https://localhost:44398/clientes
+
+{
+	"Nombre" : "j",
+	"Apellido": "f",
+	"Direccion" : "321",
+	"Telefono" : "546465"
+}
+
+Post Productos
+
+https://localhost:44398/Productos
+
+{
+	"Codigo" : "4",
+	"Marca" : "samsung",
+	"Nombre" : "J7",
+	"Precio" : 15874
+}
+
+5) Post Varios productos
+
+https://localhost:44398/Carrito_Producto/listacompras
+
+[
+	{"CarritoId": 3, "ProductoId" : 1},
+	{"CarritoId": 3, "ProductoId" : 2},
+	{"CarritoId": 3, "ProductoId" : 3},
+	{"CarritoId": 3, "ProductoId" : 4}
+]
+
+6) Get Producto
+
+https://localhost:44398/Productos
+
+Get Cliente
+
+https://localhost:44398/clientes
+
+7) Get por nombre
+
+https://localhost:44398/clientes/nombre/Carlos
+
+Get por apellido
+
+https://localhost:44398/clientes/apellido/fantasia
+
+Get por DNI
+
+https://localhost:44398/clientes/DNI/123
+
+8) Get Producto por código
+
+https://localhost:44398/Productos/codigo/1
